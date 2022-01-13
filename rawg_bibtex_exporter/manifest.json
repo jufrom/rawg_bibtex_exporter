@@ -1,0 +1,17 @@
+{
+  "name": "RAWG Bibtex Exporter",
+  "description": "Save citation info from RAWG.io",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "96": "/images/outline_file_download_black_48dp.png"
+    }
+  },
+  "icons": {
+    "96": "/images/outline_file_download_black_48dp.png"
+  },
+  "options_page": "options.html"
+}

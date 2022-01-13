@@ -1,0 +1,19 @@
+ body {
+	width: 200px;
+	height: auto;
+ }
+
+button {
+  height: auto;
+  width: auto;
+  outline: none;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 2px;
+}
+
+button.current {
+  box-shadow: 0 0 0 2px white,
+              0 0 0 4px black;
+}
