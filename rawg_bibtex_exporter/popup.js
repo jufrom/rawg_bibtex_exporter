@@ -6,7 +6,6 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
 		chrome.storage.local.get("citation_text", ({ citation_text }) => {
 		   citation_text_view.innerHTML = citation_text;
 		});
-		//citation_text_view.innerHTML = citation_text;
 	}
 });
 
